@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mumbai Metro | Accesss from the Airport</title>
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+    <script src="nav.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></head>
+<style>
+  body{
+  font-family: Roboto, sans-serif;
+}
+  .access{
+      
+          margin-top:150px;
+          padding:50px;
+      }
+      #access1{
+        color:#02477f;
+    
+        text-align: center;
+        margin-bottom: 100px;
+      }
+      #access-heading{
+      
+        font-size: 45px;
+        font-weight: bold;
+        padding-top: 5px;
+      }
+
+#em{font-size:10px;
+}
+.relatedlink{
+  height: 120px;
+  width: 85%;
+  margin: 120px auto 160px;
+  border: 1px solid lightgrey;
+}
+#link-head{
+  height: 120px;
+  width: 25%;
+  float: left;
+  display: flex;
+  align-items: center;
+  background-color: lightgrey; 
+}
+#lin{
+  height: 68px;
+  width: 66%;
+  float: left;
+  margin: 26px auto 26px 30px;
+}
+.arr{
+  height: 14px;
+  width: 8px;
+  margin-right: 8px;
+
+}
+#linkss{
+  text-decoration: none;
+  color: #02477f;
+  font-size: 18px;
+  font-weight: 120;
+}
+#linkss:hover { 
+text-decoration: underline;
+}
+#maap{
+	width:80%;
+	height:300px
+}
+@media(max-width:700px){
+	.access{
+		padding:20px;
+	}
+	#maap{
+		width:95%;
+	}
+}
+
+</style>
+
+  <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'id', includedLanguages: 'ar,en,de,hi,mr,pa,ne,zh-CN,tr,fr,id,it,,ja,kn,ru,ta,tl,uk', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+        }
+      </script>
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</head>
+<body>
+  <img src="pagetop.png" onclick="top_page()" id="pagetop" >
+
+ 	<nav id="navbar">
+				
+	            <div id="logo_container"><a href="index.html"><img src="mumbailogo.png" class="logo"></a></div>
+	        	
+	            <ul>
+	               	<li>
+	                  	<div id="menu-icon1"  onMouseOver="change1('language.png','#fff'); f1();" onMouseOut="change1('languagesel.png','#054279'); myFunction();"   onclick="language();">
+                      <span id="menu-link1">
+                          <img src="languagesel.png" id="menu-language" name="lan"><br>Language
+                      </span>
+
+                      <div class="lcontent" id="lang-content" style="height: 50px;">
+                        <div style="height: 12px;  ">
+                          <img src="triangle.png"   style="width: 25px; height: 25px; position: absolute; top: -22px; left: 88px; padding: 0 0 0 0; ">
+                        </div>
+                          <span id="google_translate_element" style="background-color: red"></span>
+                      </div>  
+                    </div>
+	            	</li>
+
+	            	
+	                  	
+	               	
+	               	<li>
+	                  	<div id="menu-icon2"  onMouseOver="change2('menu.png','#fff'); f1();" onMouseOut="change2('menusel.png','#054279'); myFunction();"   onclick="menu();">
+	                     	<span id="menu-link2" >
+	                        	<img src="menusel.png"  id="menu-menu"  name="me" ><br>Menu
+	                        </span>
+
+	                        	<div class="mcontent" id="menu-content" >
+
+	                        		<div style="height: 12px;  ">
+	                    				<img src="triangle.png"   style="width: 25px; height: 25px; position: absolute; top: -22px; right: 180px; padding: 0 0 0 0;" id="triangle">
+	                				</div>
+	                				<a href="ticket.html"  style="text-decoration: none; color: #054279;" >
+    								<div id="abc1" >
+	                    				
+	                    				<img src="mumbaiticket.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;" id="imga"><br>
+	                    				<img src="rightarrow.png" style="height: 15px; width: 8px; padding: 0 0; margin-right: 10px;">Book Tickets
+	                    			</div>
+	                    			</a>
+	                    			<a href="Subway Map.html"  style="text-decoration: none;color: #054279;">
+	                    			<div id="abc">
+	                    				
+	                    				<img src="map.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"id="imga"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0;margin-right: 10px;">Subway Map
+	                    			</div>
+	                    			</a>
+	                    			<a href="Tips.html"  style="text-decoration: none;color: #054279;">
+	                    			<div  id="abc">
+	                    				
+	                    				<img src="tips.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"id="imga"><br>
+	                    				<img src="rightarrow.png" style="height: 15px; width: 8px; padding: 0 0;  margin-right: 10px;">Tips for using <p style="margin-left: 20px; margin-top: 0;">Mumbai Metro</p>
+										
+	                    			</div>
+	                    			</a>
+	                    		
+	                    			<a href="seemumbai.html"  style="text-decoration: none;color: #054279;">
+	                    			<div id="abc">
+	                    				
+	                    				<img src="visit.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;" id="imga"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0;margin-right: 10px;">See Mumbai with<br>Mumbai Metro
+	                    			</div>
+	                    			</a>
+  								</div>
+	                     	
+	                  	</div>
+	               	</li>
+	               	<li>
+	               		<a href="validate.php" style="text-decoration: none;" >
+	                  	<div id="menu-icon3"  onMouseOver="change3('#fff'); f1();" onMouseOut="change3('#054279'); myFunction();"  >
+	                     	<span id="menu-link3" >
+	                        	<i class="fa fa-user-circle" aria-hidden="true"></i><br>User
+	                        	
+	                     	</span>
+	                  	</div>
+	                  	</a>
+	               	</li>
+				</ul>
+				
+         	</nav>
+
+
+  <div class="access" >
+    <div id="access1">
+      <span id="access-heading">Access from the CSI Airport</span><br>
+      <img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png" alt="Pics-Art-08-30-11-43-21" border="0" width="150px" height="50px" style="margin-top: 10px; margin-bottom: 20px;"><br>
+      <p style="font-size: 20px; color: #000;">Access the Mumbai Metro directly from the Mumbai Airport and get into the beautiful city safely and conviently</p>
+    </div>
+
+ 
+
+
+<p style="font-size:30px; color:#054279 ; padding : 0 0 0 20;">   Access from CSIA Terminal 1    <img src="downarrow.png" style=" float:right;"> </p>
+<div style="background-color:snow ; padding:0 30  0 30 ; margin:0 30 0 30;">
+<p style="font-size:25px">7 min (600m)<br><em id="em"> ( <i class="material-icons" style="font-size:25px;color:red">error</i> Use caution - walking direction may not always reflect real-world condition)</em> </p>
+<p><i class="material-icons" style="font-size:36px;">place</i> Terminal 1</p>
+<hr 2px>
+<p><i class="material-icons" style="font-size:36px;">arrow_upward</i> Head south-west <em id="em"> ( <i class="material-icons" style="font-size:20px;color:#054279">error</i> walk along T1 on the left for 160m )</em></p style="font-size:12px"><hr 2px style="float:right; width:85%;"><p  style="font-size:12px">300m</p>
+<p><i class="material-icons" style="font-size:36px;">arrow_forward</i> Turn right</p><hr 2px style="float:right; width:85%;"><p style="font-size:12px">180m</p>
+<p><i class="material-icons" style="font-size:36px;">arrow_back</i> Turn left </p><hr 2px style="float:right; width:85%;"><p style="font-size:12px">120m</p>
+<p><i class="material-icons" style="font-size:36px;">directions_subway</i> CSIA METRO STATION (Aqua line)<em id="em">  (<i class="material-icons" style="font-size:20px;color:#054279">error</i> Destinatiom will be on left)</em> </p>
+</div>
+<p style="margin-left:80px; color:#054279"> Directions on Map </p>
+
+<center ><iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1885.157288253078!2d72.85405550798983!3d19.09385074676942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m5!1s0x3be7c8523d8f96a5%3A0xf15aa6a3b67363de!2sTerminal%201%2C%20Navpada%2C%20Chhatrapati%20Shivaji%20International%20Airport%20Area%2C%20Vile%20Parle%2C%20Mumbai%2C%20Maharashtra!3m2!1d19.093140299999998!2d72.8567534!4m3!3m2!1d19.0939036!2d72.8536378!5e0!3m2!1sen!2sin!4v1598800137985!5m2!1sen!2sin" id="maap" frameborder="0" style="border:1px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </center>
+
+<hr color="#054279" width="90%">
+
+<p style="font-size:30px; color:#054279 ; padding:0 0 0 20">   Access from CSIA Terminal 2<img src="downarrow.png" style=" float:right;"></p>
+<div style="background-color:snow ; padding:0 30 0 30px;margin:0 30 0 30;">
+<p style="font-size:25px">6 min (500m) <br><em id="em"> ( <i class="material-icons" style="font-size:25px;color:red">error</i> Use caution - walking direction may not always reflect real-world condition)</em> </p>
+<p><i class="material-icons" style="font-size:36px;">place</i> Terminal 2</p>
+<hr 2px>
+<p> <i class="material-icons" style="font-size:36px">arrow_upward</i> Head north </p><hr  style="float:right; width:85%;"></p><p style="font-size:12px">70m</p>
+<p> <i class="material-icons" style="font-size:36px">arrow_forward</i> Turn right <em id="em">( <i class="material-icons" style="font-size:20px;color:#054279">error</i> Pass by Sahar Police Station on the right in 140 m)</em></p><hr 2px style="float:right;width:85%;"><p style="font-size:12px">250m</p>
+<p> <i class="material-icons" style="font-size:36px">arrow_back</i> Turn left onto IA Project road <em id="em">( <i class="material-icons" style="font-size:20px;color:#054279">error</i> Pass by Elleganta on the left in 97m) </em></p><hr 2px style="float:right; width:85%;"><p style="font-size:12px">180m</p>
+<p><i class="material-icons" style="font-size:36px">directions_subway</i> CSIA METRO STATION <em id="em">( <i class="material-icons" style="font-size:20px;color:#054279">error</i> Destinatiom will be on left)</em> </p></div>
+<p style="margin-left:80px; color:#054279"> Directios on Map </p>
+<center><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3770.1691874576272!2d72.87326006451542!3d19.10023233707401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3be7c842b68282f1%3A0x200d8c72871da4f1!2sTerminal%202%2C%20Navpada%2C%20Vile%20Parle%20East%2C%20Vile%20Parle%2C%20Mumbai%2C%20Maharashtra!3m2!1d19.0974373!2d72.8745017!4m5!1s0x3be7c9656aafb1a9%3A0x6fee84067b68e6c7!2sCSIA%20METRO%20STATION(Aqua%20Line)%2C%20Chhatrapati%20Shivaji%20International%2C%20IA%20Project%20Road%2C%20Navpada%2C%20Airport%20Area%2C%20Andheri%20East%2C%20Mumbai%2C%20Maharashtra!3m2!1d19.1022058!2d72.8744438!5e0!3m2!1sen!2sin!4v1598799975377!5m2!1sen!2sin"  frameborder="0" id="maap" style="border:1px;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe></center>
+</div>
+<br> <br>
+		        
+    <footer class="app" class"footer">
+      
+        <span id="app_heading">ABOUT MUMBAI METRO</span><br><br>
+        <img src="footerlogo.png"  align="right" id="footerlogo">
+        <span style="font-size: 17px;">Mumbai Subway Navigation for Tourists is a free application officially provided by Mumbai Metro to enable users to search transfer information for the Mumbai Subway network (Mumbai Metro and Mumbai Suburban Railway).<br>
+        This application is available in English and Hindi. It is highly recommended for visitors sightseeing in Mumbai.
+      
+
+      </p>
+  
+    
+    
+    </div>
+     
+  </footer>
+
+</body>
+</html>
+

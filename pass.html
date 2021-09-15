@@ -1,0 +1,183 @@
+
+
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="tips.css">
+   <link rel="stylesheet" type="text/css" href="nav.css">
+   <link rel="stylesheet" type="text/css" href="footer.css">
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+    <script src="nav.js"></script>
+    
+   <link rel="stylesheet" type="text/css" href="footer.css" >
+</head>
+<style>
+#ic{color:snow;
+     text-align:center;
+     padding:20px;
+font-family:'Times New Roman';
+          color:#0c5d9f;
+          margin-top:100px;
+        }
+
+#csc{ border: 1px solid ;
+ margin-left:10px;
+padding: 10px;
+width:40%;
+height:6%;
+font-size:30px;
+}
+#instimg{
+	width:50%;
+	margin-left:25%;
+}
+#csct{
+	font-size:30px;
+}
+
+@media (max-width:600px){
+	#instimg{
+		width:90%;
+		margin-left:5%;
+	}
+	#csct{
+		font-size:20px;
+	}
+	#csc{
+		height:30px;
+		width:80%;
+	
+	}
+}
+
+
+</style>
+
+
+<nav id="navbar">
+				
+	            <div id="logo_container"><a href="index.html"><img src="mumbailogo.png" class="logo"></a></div>
+	        	
+	            <ul>
+	               	<li>
+	                  	<div id="menu-icon1"  onMouseOver="change1('language.png','#fff'); f1();" onMouseOut="change1('languagesel.png','#054279'); myFunction();"   onclick="language();">
+                      <span id="menu-link1">
+                          <img src="languagesel.png" id="menu-language" name="lan"><br>Language
+                      </span>
+
+                      <div class="lcontent" id="lang-content" style="height: 50px;">
+                        <div style="height: 12px;  ">
+                          <img src="triangle.png"   style="width: 25px; height: 25px; position: absolute; top: -22px; left: 88px; padding: 0 0 0 0; ">
+                        </div>
+                          <span id="google_translate_element" style="background-color: red"></span>
+                      </div>  
+                    </div>
+	            	</li>
+
+	            	
+	                  	
+	               	
+	               	<li>
+	                  	<div id="menu-icon2"  onMouseOver="change2('menu.png','#fff'); f1();" onMouseOut="change2('menusel.png','#054279'); myFunction();"   onclick="menu();">
+	                     	<span id="menu-link2" >
+	                        	<img src="menusel.png"  id="menu-menu"  name="me" ><br>Menu
+	                        </span>
+
+	                        	<div class="mcontent" id="menu-content" >
+
+	                        		<div style="height: 12px;  ">
+	                    				<img src="triangle.png"   style="width: 25px; height: 25px; position: absolute; top: -22px; right: 180px; padding: 0 0 0 0;" id="triangle">
+	                				</div>
+	                				<a href="ticket.html"  style="text-decoration: none; color: #054279;" >
+    								<div id="abc1" >
+	                    				
+	                    				<img src="mumbaiticket.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;" id="imga"><br>
+	                    				<img src="rightarrow.png" style="height: 15px; width: 8px; padding: 0 0; margin-right: 10px;">Book Tickets
+	                    			</div>
+	                    			</a>
+	                    			<a href="Subway Map.html"  style="text-decoration: none;color: #054279;">
+	                    			<div id="abc">
+	                    				
+	                    				<img src="map.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"id="imga"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0;margin-right: 10px;">Subway Map
+	                    			</div>
+	                    			</a>
+	                    			<a href="Tips.html"  style="text-decoration: none;color: #054279;">
+	                    			<div  id="abc">
+	                    				
+	                    				<img src="tips.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"id="imga"><br>
+	                    				<img src="rightarrow.png" style="height: 15px; width: 8px; padding: 0 0;  margin-right: 10px;">Tips for using <p style="margin-left: 20px; margin-top: 0;">Mumbai Metro</p>
+										
+	                    			</div>
+	                    			</a>
+	                    			<a href="route.html"  style="text-decoration: none;color: #054279;">
+	                    		
+	                    			</a>
+	                    			<a href="seemumbai.html"  style="text-decoration: none;color: #054279;">
+	                    			<div id="abc">
+	                    				
+	                    				<img src="visit.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;" id="imga"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0;margin-right: 10px;">See Mumbai with<br>Mumbai Metro
+	                    			</div>
+	                    			</a>
+  								</div>
+	                     	
+	                  	</div>
+	               	</li>
+	               	<li>
+	               		<a href="validate.php" style="text-decoration: none;" >
+	                  	<div id="menu-icon3"  onMouseOver="change3('#fff'); f1();" onMouseOut="change3('#054279'); myFunction();"  >
+	                     	<span id="menu-link3" >
+	                        	<i class="fa fa-user-circle" aria-hidden="true"></i><br>User
+	                        	
+	                     	</span>
+	                  	</div>
+	                  	</a>
+	               	</li>
+				</ul>
+				
+         	</nav>
+
+
+
+ <div id="ic"> <h1 style="font-size:50px;"> My Pass <br>
+<img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png" alt="Pics-Art-08-30-11-43-21" border="0" width="150px" height="50px"></h1>
+<em style="font-size:20px;"> Charge your metro card anywhere and conviently</em></div>
+<h1 style="color:#054279; text-align:center; font-size:50px;"> Instacharge</h1>
+ <div class="Instacharge_img"   "> 
+
+
+<img src="http://instacharge.reliancemumbaimetro.com/images/instacharge_1.jpg" id="instimg">
+
+ <form style="margin-top:50px"><center>
+<p id="csct" style=" color:#054279;"> <b>Please enter your CSC No. :   </b><br><br> <input  type="password"  id="csc"></p>
+<div style="margin-top:50px;">
+<p  id="csct" style=";color:#054279;"> <b>Please Re-enter your CSC No. : </b><br><br><input type="password" id="csc"></p></div>
+
+<div style="margin-top:50px;">
+<p    id="csct" style=";color:#054279;"> <b>Please Enter  your  Password : </b><br><br><input type="password" id="csc"></p></div>
+<br><br>
+
+<button style=" border:none; color:snow; background-color:#0c5d9f; padding:10px; font-size:25px;"> CONFIRM </button>
+</center>
+</form></div><br>
+
+ <footer class="app" class"footer">
+      
+        <span id="app_heading">ABOUT MUMBAI METRO</span><br><br>
+        <img src="footerlogo.png"  align="right" id="footerlogo">
+        <span style="font-size: 17px;">Mumbai Subway Navigation for Tourists is a free application officially provided by Mumbai Metro to enable users to search transfer information for the Mumbai Subway network (Mumbai Metro and Mumbai Suburban Railway).<br>
+        This application is available in English and Hindi. It is highly recommended for visitors sightseeing in Mumbai.
+      
+
+      </p>
+  
+    
+    
+    </div>
+     
+  </footer>
+
+
+</div>

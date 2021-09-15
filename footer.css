@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.related_links{
+    margin-top: 120px;
+    text-align: center;
+    color: #00467e;
+    width: 100%;
+    margin: 120px auto 0;
+}
+#rel_heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+#rel_link{
+    font-weight: bold;
+    font-size: 18px;
+    color: #00467e;
+}
+#rel_container{
+    height: 10px;
+    width: 92%;
+    margin: 50px auto 80px;
+   
+}
+#container{
+    float: left;
+    width: 260px;
+    height: 100px;
+    margin-right: 25px; 
+    margin-left: 4px;
+    text-align: left;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+#container_last{
+    float: left;
+    width: 260px;
+    height: 100px; 
+    margin-left: 5px;
+    text-align: left;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+#content_up{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+#content_down{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#arrow_up{
+    height: 12px;
+    width: 8px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+#arrow_down{
+    height: 12px;
+    width: 8px;
+    margin-top: 44px;
+    margin-left: 20px;
+}
+#route,#fare,#download_app{
+    height: 60px; 
+    width: 60px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#guide{
+    height: 60px; 
+    width: 60px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.footer { 
+    
+    max-width: 100%;
+    height:auto;
+
+ }
+.app { 
+	color: snow;
+	background-color:#00091a; 
+	text-align: left;
+	padding:30px;
+}
+#app_content{
+    margin-left: 25px;
+    margin-right: 45px;
+    margin-top: 20px;
+}
+#app_heading{
+    font-size: 30px;
+} 
+#footerlogo{
+    height: 80px; 
+    width: 80px;
+    margin-left: 30px;
+}
+#store_content1{
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    text-align: left;
+}
+#store_content2{
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    text-align: left;
+}
+#store{
+    width: 180px; 
+    height: 50px;
+   
+}
+#store_content1:hover, #store_content2:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 900px){

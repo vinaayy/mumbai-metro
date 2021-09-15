@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mumbai Metro | Subway Map</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="subwaymap.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="nav.js"></script>
+     <script src="Home.js"></script>
+  
+    <script type="text/javascript">
+      function scroll_1(){
+    $("html, body").animate({ scrollTop: 310}, 400);
+  }
+  
+  function scroll_2(){
+    $("html, body").animate({ scrollTop: 1575}, 400);
+  }
+    </script>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'id', includedLanguages: 'ar,en,de,hi,mr,pa,ne,zh-CN,tr,fr,id,it,,ja,kn,ru,ta,tl,uk', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</head>
+<body>
+  <img src="pagetop.png" onclick="top_page()" id="pagetop" >
+<nav id="navbar">
+				
+	            <div id="logo_container"><a href="index.html"><img src="mumbailogo.png" class="logo"></a></div>
+	        	
+	            <ul>
+	               	<li>
+	                  	<div id="menu-icon1"  onMouseOver="change1('language.png','#fff'); f1();" onMouseOut="change1('languagesel.png','#054279'); myFunction();"   onclick="language();">
+                      <span id="menu-link1">
+                          <img src="languagesel.png" id="menu-language" name="lan"><br>Language
+                      </span>
+
+                      <div class="lcontent" id="lang-content" style="height: 50px;">
+                        <div style="height: 12px;  ">
+                          <img src="triangle.png"   style="width: 25px; height: 25px; position: absolute; top: -22px; left: 88px; padding: 0 0 0 0; ">
+                        </div>
+                          <span id="google_translate_element" style="background-color: red"></span>
+                      </div>  
+                    </div>
+	            	</li>
+
+	            	
+	                  	
+	               	
+	               	<li>
+	                  	<div id="menu-icon2"  onMouseOver="change2('menu.png','#fff'); f1();" onMouseOut="change2('menusel.png','#054279'); myFunction();"   onclick="menu();">
+	                     	<span id="menu-link2" >
+	                        	<img src="menusel.png"  id="menu-menu"  name="me" ><br>Menu
+	                        </span>
+
+	                        	<div class="mcontent" id="menu-content" >
+
+	                        		<div style="height: 12px;  ">
+	                    				<img src="triangle.png"   style="width: 25px; height: 25px; position: absolute; top: -22px; right: 180px; padding: 0 0 0 0;" id="triangle">
+	                				</div>
+	                				<a href="ticket.html"  style="text-decoration: none; color: #054279;" >
+    								<div id="abc1" >
+	                    				
+	                    				<img src="mumbaiticket.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;" id="imga"><br>
+	                    				<img src="rightarrow.png" style="height: 15px; width: 8px; padding: 0 0; margin-right: 10px;">Book Tickets
+	                    			</div>
+	                    			</a>
+	                    
+	             
+	                    				
+	      
+	                    		
+	                    		
+	                    			<a href="Tips.html"  style="text-decoration: none;color: #054279;">
+	                    			<div  id="abc">
+	                    				
+	                    				<img src="tips.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"id="imga"><br>
+	                    				<img src="rightarrow.png" style="height: 15px; width: 8px; padding: 0 0;  margin-right: 10px;">Tips for using <p style="margin-left: 20px; margin-top: 0;">Mumbai Metro</p>
+										
+	                    			</div>
+	                    			</a>
+	                    					<a href="Subway Map.html"  style="text-decoration: none;color: #054279;">
+	                    			<div id="abc">
+	                    				
+	                    				<img src="map.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"id="imga"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0;margin-right: 10px;">Subway Map
+	                    			</div>
+	                    			</a>
+	                    		
+	                    			<a href="seemumbai.html"  style="text-decoration: none;color: #054279;">
+	                    			<div id="abc">
+	                    				
+	                    				<img src="visit.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;" id="imga"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0;margin-right: 10px;">See Mumbai with<br>Mumbai Metro
+	                    			</div>
+	                    			</a>
+  								</div>
+	                     	
+	                  	</div>
+	               	</li>
+	               	<li>
+	               		<a href="validate.php" style="text-decoration: none;" >
+	                  	<div id="menu-icon3"  onMouseOver="change3('#fff'); f1();" onMouseOut="change3('#054279'); myFunction();"  >
+	                     	<span id="menu-link3" >
+	                        	<i class="fa fa-user-circle" aria-hidden="true"></i><br>User
+	                        	
+	                     	</span>
+	                  	</div>
+	                  	</a>
+	               	</li>
+				</ul>
+				
+         	</nav>
+
+
+  <div class="sm-1">
+    <span id="map-heading">Subway Map</span><br>
+    <img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png" alt="Pics-Art-08-30-11-43-21" border="0" width="150px" height="50px" style="margin-top: 8px;">
+    <div class="pdf-down" style="text-align: center; margin: 50px auto;">
+      <div id="pdf" onclick="scroll_1()" ><img src="downarrow.png" class="arrow2">PDF Downloads</div>
+     
+      <div id="pdf" onclick="scroll_2()"><img src="downarrow.png" class="arrow2">About Metro Lines</div>
+    </div>
+     <hr style="width:90%; background-color: lightgrey;>
+    <div class="map">
+      <span id="pdf-heading">PDF Downloads</span><br>
+      <p id="pdf-intro">Here you can download the Mumbai Metro subway map.</p>
+      <img src="metromap.png" class="metromap" ></div>
+      <div class="down">
+        <div id="down1">
+          <p id="down"><a href="login.html" style="color: #00467e; text-decoration: none;"><img src="rightarrow.png" class="arrow1">Mumbai Metro Subway map in English<img src="pdficon.png" style="margin-left: 4px;"></a></p>
+        </div>
+        <div id="down2">
+          <p id="down"><a href="login.html" style="color: #00467e; text-decoration: none;"><img src="rightarrow.png" class="arrow1">Mumbai Metro Subway map in Hindi<img src="pdficon.png" style="margin-left: 4px;"></a></p>
+        </div>
+        <div id="down3">
+          <p id="down"><a href="login.html" style="color: #00467e; text-decoration: none;"><img src="rightarrow.png" class="arrow1">Mumbai Metro Subway map in Marathi<img src="pdficon.png" style="margin-left: 4px;"></a></p>
+        </div>
+      </div>
+    </div>
+
+  
+    
+  </div>
+
+     <footer class="app" class"footer">
+      
+        <span id="app_heading">ABOUT MUMBAI METRO</span><br><br>
+        <img src="footerlogo.png"  align="right" id="footerlogo">
+        <span style="font-size: 17px;">Mumbai Subway Navigation for Tourists is a free application officially provided by Mumbai Metro to enable users to search transfer information for the Mumbai Subway network (Mumbai Metro and Mumbai Suburban Railway).<br>
+        This application is available in English and Hindi. It is highly recommended for visitors sightseeing in Mumbai.
+      
+
+      </p>
+  
+    
+    
+    </div>
+     
+  </footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mumbai Metro | See Mumbai With Mumbai Metro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+    <script src="nav.js"></script>
+    <style type="text/css">
+      .see{
+        text-align: center;
+        margin: 120px auto 0;
+      }
+      #see1{
+        color:#02477f;
+        
+      }
+      #see2{
+        
+        width: 92%;
+        margin: 20px auto;
+      }
+      #see-heading{
+        font-size: 45px;
+        font-weight: bold;
+        padding-top: 5px;
+      }
+      #slider{overflow:hidden;
+        width:50%;
+        float:left;
+        margin:10px;
+      }
+      @media(max-width:600px){
+          #slider{
+              width:90%;
+          }
+      }
+      #slider figure{ position:relative;
+        width:400%;
+        left:0px;
+        margin:0px;
+        animation:slider 9s infinite linear ;
+      }
+      #slider figure img{
+      width:25%;
+      float:left;
+      }
+      .relatedlink{
+  height: 120px;
+  width: 85%;
+  margin: 120px auto 160px;
+  border: 1px solid lightgrey;
+}
+#link-head{
+  height: 120px;
+  width: 25%;
+  float: left;
+  display: flex;
+  align-items: center;
+  background-color: lightgrey; 
+}
+#lin{
+  height: 68px;
+  width: 62%;
+  float: left;
+  margin: 26px auto 26px 30px;
+  text-align: left;
+}
+.arr{
+  height: 14px;
+  width: 8px;
+  margin-right: 8px;
+
+}
+#linkss{
+  text-decoration: none;
+  color: #02477f;
+  font-size: 18px;
+  font-weight: 120;
+}
+#linkss:hover { 
+text-decoration: underline;
+}
+      @keyframes slider{
+        0% {left:0;}
+        30%{left:0;}
+        30.001%{left:-100%;}
+        62%{left:-100%;}
+        62.001%{left:-200%;}
+        100%{left:-200%}
+      }
+    </style>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'id', includedLanguages: 'ar,en,de,hi,mr,pa,ne,zh-CN,tr,fr,id,it,,ja,kn,ru,ta,tl,uk', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+        }
+      </script>
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body>
+  <img src="pagetop.png" onclick="top_page()" id="pagetop" >
+<nav id="navbar">
+				
+	            <div id="logo_container"><a href="index.html"><img src="mumbailogo.png" class="logo"></a></div>
+	        	
+	            <ul>
+	               	<li>
+	                  	<div id="menu-icon1"  onMouseOver="change1('language.png','#fff'); f1();" onMouseOut="change1('languagesel.png','#054279'); myFunction();"   onclick="language();">
+                      <span id="menu-link1">
+                          <img src="languagesel.png" id="menu-language" name="lan"><br>Language
+                      </span>
+
+                      <div class="lcontent" id="lang-content" style="height: 50px;">
+                        <div style="height: 12px;  ">
+                          <img src="triangle.png"   style="width: 25px; height: 25px; position: absolute; top: -22px; left: 88px; padding: 0 0 0 0; ">
+                        </div>
+                          <span id="google_translate_element" style="background-color: red"></span>
+                      </div>  
+                    </div>
+	            	</li>
+
+	            	
+	                  	
+	               	
+	               	<li>
+	                  	<div id="menu-icon2"  onMouseOver="change2('menu.png','#fff'); f1();" onMouseOut="change2('menusel.png','#054279'); myFunction();"   onclick="menu();">
+	                     	<span id="menu-link2" >
+	                        	<img src="menusel.png"  id="menu-menu"  name="me" ><br>Menu
+	                        </span>
+
+	                        	<div class="mcontent" id="menu-content" >
+
+	                        		<div style="height: 12px;  ">
+	                    				<img src="triangle.png"   style="width: 25px; height: 25px; position: absolute; top: -22px; right: 180px; padding: 0 0 0 0;" id="triangle">
+	                				</div>
+	                				<a href="ticket.html"  style="text-decoration: none; color: #054279;" >
+    								<div id="abc1" >
+	                    				
+	                    				<img src="mumbaiticket.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;" id="imga"><br>
+	                    				<img src="rightarrow.png" style="height: 15px; width: 8px; padding: 0 0; margin-right: 10px;">Book Tickets
+	                    			</div>
+	                    			</a>
+	                    			<a href="Subway Map.html"  style="text-decoration: none;color: #054279;">
+	                    			<div id="abc">
+	                    				
+	                    				<img src="map.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"id="imga"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0;margin-right: 10px;">Subway Map
+	                    			</div>
+	                    			</a>
+	                    			<a href="Tips.html"  style="text-decoration: none;color: #054279;">
+	                    			<div  id="abc">
+	                    				
+	                    				<img src="tips.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"id="imga"><br>
+	                    				<img src="rightarrow.png" style="height: 15px; width: 8px; padding: 0 0;  margin-right: 10px;">Tips for using <p style="margin-left: 20px; margin-top: 0;">Mumbai Metro</p>
+										
+	                    			</div>
+	                    			</a>
+	                    		
+	                    			<a href="seemumbai.html"  style="text-decoration: none;color: #054279;">
+	                    			<div id="abc">
+	                    				
+	                    				<img src="visit.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;" id="imga"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0;margin-right: 10px;">See Mumbai with<br>Mumbai Metro
+	                    			</div>
+	                    			</a>
+  								</div>
+	                     	
+	                  	</div>
+	               	</li>
+	               	<li>
+	               		<a href="validate.php" style="text-decoration: none;" >
+	                  	<div id="menu-icon3"  onMouseOver="change3('#fff'); f1();" onMouseOut="change3('#054279'); myFunction();"  >
+	                     	<span id="menu-link3" >
+	                        	<i class="fa fa-user-circle" aria-hidden="true"></i><br>User
+	                        	
+	                     	</span>
+	                  	</div>
+	                  	</a>
+	               	</li>
+				</ul>
+				
+         	</nav>
+
+ 
+
+  <div class="see">
+    <div id="see1">
+      <span id="see-heading">See Mumbai with Mumbai Metro</span><br>
+      <img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png" alt="Pics-Art-08-30-11-43-21" border="0" width="150px" height="50px" style="margin-top: 10px; margin-bottom: 20px;"><br>
+      <span style="font-size: 20px; color: #000;">The Mumbai Metro can take you to most popular places in Mumbai. Even during rainy days,<br> you can enjoy all the places and stay dry.</span>
+    </div>
+
+    <div id="see2">
+
+      <div style="padding:20px">
+        <center> <h1 style="color:#054279;">Touristic Places</h1></center>
+        <hr size="2"  color="#054279" width="100%" >
+
+        <div style="color:#0c5d9f ; ">
+          <h2 style="font-size:32px"><em> Gateway of India
+          </em><br><img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png"  border="0" width="80px" height="30px" style="margin-top: 10px;"></h2>
+          <div id="slider"><figure>
+          <img id="imgtour"   src="https://i.ibb.co/1rTcsSL/Gate1.jpg" alt="Gate1" >
+          <img id="imgtour"  src="https://i.ibb.co/GVj5wnW/Gate2.jpg" alt="Gate2" >
+          <img id="imgtour" src="https://i.ibb.co/z2pv5Jn/Gate3.jpg" alt="Gate3">
+          </figure>
+        </div>
+          <p style="font-size:24px; margin-top: 50px;  text-align: left;" > To reach this tourist destination get on the <b>Aqua line (Line 3) </b>and get off on<b> Vidhan Bhavan Metro Station</b> and after 19 min walk you will reach your destination .<br>
+          <a style="text-decoration:none; color:red;" href="https://maps.app.goo.gl/nEMP1EuX7ipFGVpe8">Click here to view directions.</a></p><br>
+
+        <hr size="2"  color="#054279" width="100%" >
+          </div>
+
+        <div style="color:#0c5d9f ; margin-top: 40px; ">
+          
+        <h2 style="font-size:32px"><em>Chhatrapati Shivaji Maharaj Terminus</em><br><img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png"  border="0" width="80px" height="30px" style="margin-top: 10px;"></h2>
+        <div id="slider"><figure>
+        <img id="imgtour"  src="https://i.ibb.co/cgMc3TS/Cst1.jpg" >
+        <img id="imgtour"  src="https://i.ibb.co/mvPjtvz/Cst2.jpg"  >
+        <img id="imgtour"   src="https://i.ibb.co/ySFkj4n/Cst3.jpg"  >
+        </figure>
+        </div>
+        <p  style="font-size:24px;margin-top: 50px;  text-align: left;"  > To reach this tourist destination get on the <b>Aqua line </b>(Line 3) and get off on <b>CST Metro Station </b>and after 9 min walk you will reach your destination.<br><a style="text-decoration:none; color:red;" href="https://maps.app.goo.gl/S2UCH8Q5GNGb1meT6">Click here to view directions.</a></p>
+        <hr size="2"  color="#054279" width="100%" >
+          </div>
+
+        <div style="color:#0c5d9f ; margin-top: 40px;"> 
+        <h2  style="font-size:32px"> <em>Shri Siddhivinayak Ganapati Mandir</em><br><img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png"  border="0" width="80px" height="30px" style="margin-top: 10px;"></h2>
+
+        <div id="slider"><figure>
+        <img id="imgtour"  src="https://i.ibb.co/444nWbk/Ssv1.jpg">
+        <img id="imgtour"   src="https://i.ibb.co/cXwLqd1/Ssv2.jpg">
+        <img id="imgtour" src="https://i.ibb.co/MRQv41X/Ssv3.jpg">
+        </figure>
+        </div>
+
+        <p  style="font-size:24px;margin-top: 50px;  text-align: left;" > To reach this tourist destination get on the <b>Aqua line </b>(Line 3) and get off on <b>Siddhivinayak Metro Station</b> and after 10 min walk you will reach your destination.<br>  <a style="text-decoration:none; color:red;" href="https://maps.app.goo.gl/2mqW9p9rTRtDsKau6">Click here to view directions.</a></p>
+        <hr size="2"  color="#054279" width="100%" >
+          </div>
+
+        <div style="color:#0c5d9f ; margin-top: 40px;"> 
+        <h2  style="font-size:32px"> <em>Bandstand Promenade</em><br><img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png"  border="0" width="80px" height="30px" style="margin-top: 10px;"></h2>
+        <div id="slider"><figure>
+        <img id="imgtour"  src="https://i.ibb.co/Rj4WsKp/Bs1.jpg"  >
+        <img id="imgtour"  src="https://i.ibb.co/j8PQs7b/Bs2.jpg" >
+        <img id="imgtour"   src="https://i.ibb.co/qNHzDqY/Bs3.jpg" >
+        </figure>
+        </div>
+
+        <p style="font-size:24px;margin-top: 50px;  text-align: left;"   > To reach this tourist destination get on the <b>Aqua line</b> (Line 3) and get off on<b> Bandra Metro Station</b> and after 14 min drive you will reach your destination.<br><a style="text-decoration:none; color:red;" href=" https://maps.app.goo.gl/Pi7ZkS65nCSDXPdX6">Click here to view directions.</a></p> 
+        <hr size="2"  color="#054279" width="100%" >
+         </div>
+
+
+        <div style="color:#0c5d9f ; margin-top: 40px;"> 
+        <h2  style="font-size:32px"><em> Marinelines / Girgaon Chowpatty</em><br><img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png"  border="0" width="80px" height="30px" style="margin-top: 10px;"></h2>
+
+        <div id="slider"><figure>
+        <img id="imgtour"   src="https://i.ibb.co/fn8fJTG/Marine1.jpg">
+        <img id="imgtour"   src="https://i.ibb.co/SwFJJDp/Marine2.jpg">
+        <img id="imgtour"  src="https://i.ibb.co/gzzPLMd/Marine3.jpg"  >
+        </figure>
+        </div>
+        <p  style="font-size:24px;margin-top: 50px;  text-align: left;" > To reach this tourist destination get on the <b>Aqua line </b>(Line 3) and get off on<b> Girgaon Metro Station</b> and after 2 min walk you will reach your destination.<br>  <a style="text-decoration:none; color:red;" href=" https://maps.app.goo.gl/6L48V6UomQP2YTfE6https://maps.app.goo.gl/nEMP1EuX7ipFGVpe8">Click here to view directions.</a></p>
+        <hr size="2"  color="#054279" width="100%" >
+          </div>
+
+        <div style="color:#0c5d9f; margin-top: 40px;"> 
+        <h2 style="font-size:32px" ><em> Kanheri Caves</em><br><img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png"  border="0" width="80px" height="30px" style="margin-top: 10px;"></h2>
+        <div id="slider"><figure>
+        <img id="imgtour"   src="https://i.ibb.co/3Nj4zq5/Kc1.jpg" >
+        <img id="imgtour"   src="https://i.ibb.co/jwc4GkF/Kc2.jpg" >
+        <img id="imgtour"   src="https://i.ibb.co/PY0XSf2/Kc3.jpg" >
+        </figure>
+        </div>
+        <p  style="font-size:24px;margin-top: 50px;  text-align: left;" > To reach this tourist destination get on the <b>Red line</b> (Line 7) and get off on<b> Rastriya Udhyan Metro Station</b> and after 10 min walk you will reach Sanjay gandhi national park.<br> <a style="text-decoration:none; color:red;" href=" https://maps.app.goo.gl/WLk9zaV8K8V3L6iP8">Click here to view directions.</a></p>  
+        <hr size="2"  color="#054279" width="100%" >
+        </div>
+
+        <div style="color:#0c5d9f; margin-top: 40px;"> 
+        <h2 style="font-size:32px" ><em>Juhu Beach</em><br><img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png"  border="0" width="80px" height="30px" style="margin-top: 10px;"></h2>
+        <div id="slider"><figure>
+        <img id="imgtour"   src="https://i.ibb.co/RbsxbKc/IMG-20200927-125629.jpg" >
+        <img id="imgtour"  src="https://i.ibb.co/q9HzSf8/IMG-20200927-125611.jpg">
+        <img id="imgtour"   src="https://i.ibb.co/b3z1x2b/IMG-20200927-125645.jpg">
+        </figure>
+        </div>
+        <p  style="font-size:24px;margin-top: 50px;  text-align: left;" > To reach this tourist destination get on the <b>Yellow line</b> (Line 2) and get off on<b> Prem Nagar Metro Station</b> and 10 min walk you will reach your destination.<br> <a style="text-decoration:none; color:red;" href="  https://maps.app.goo.gl/eiNVnmR2c5kB1sEz7"
+        >Click here to view directions.</a></p>  
+        <hr size="2"  color="#054279" width="100%" >
+        </div>
+
+        <div style="color:#0c5d9f; margin-top: 40px;"> 
+        <h2 style="font-size:32px" ><em> Red Carpet Wax Museum</em><br><img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png"  border="0" width="80px" height="30px" style="margin-top: 10px;"></h2>
+        <div id="slider"><figure>
+        <img id="imgtour"  src="https://i.ibb.co/VxzWWgm/IMG-20200927-125710.jpg" >
+        <img id="imgtour"   src="https://i.ibb.co/fCz3Qkk/IMG-20200927-125723.jpg"  >
+        <img id="imgtour"   src="https://i.ibb.co/QCCYc4m/IMG-20200927-125731.jpg"  >
+        </figure>
+        </div>
+        <p  style="font-size:24px;margin-top: 50px;  text-align: left;" > To reach this tourist destination get on the <b>Green line</b> (Line 4 ) and get off on<b>Sheryas Cenima Metro Station</b> and after 6min walk you will reach your destination. <br><a style="text-decoration:none; color:red;" href=" https://maps.app.goo.gl/WLk9zaV8K8V3L6iP8">Click here to view directions.</a></p>  
+        <hr size="2"  color="#054279" width="100%" >
+        </div>
+
+        <div style="color:#0c5d9f; margin-top: 40px;"> 
+        <h2 style="font-size:32px" ><em> Hanging Garden</em><br><img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png"  border="0" width="80px" height="30px" style="margin-top: 10px;"></h2>
+        <div id="slider"><figure>
+        <img id="imgtour"    src="https://i.ibb.co/t4rcx34/IMG-20200927-125804.jpg">
+        <img id="imgtour"    src="https://i.ibb.co/4Nry9PH/IMG-20200927-125814.jpg"  >
+        <img id="imgtour"   src="https://i.ibb.co/TvWcNrJ/IMG-20200927-125749.jpg" >
+        </figure>
+        </div>
+        <p  style="font-size:24px;margin-top: 50px;  text-align: left;" > To reach this tourist destination get on the <b> Aqua line</b> (Line 3) and get off on<b>Grant Road Metro Station</b> and after 15 min drive you will reach your destination.<br> <a style="text-decoration:none; color:red;" href="   https://maps.app.goo.gl/CNQKjtSqLoNiHFmi6">Click here to view directions.</a></p>  
+        <hr size="2"  color="#054279" width="100%" >
+        </div>
+
+
+        </div>
+    </div>
+
+
+  </div>
+      <footer class="app" class"footer">
+      
+        <span id="app_heading">ABOUT MUMBAI METRO</span><br><br>
+        <img src="footerlogo.png"  align="right" id="footerlogo">
+        <span style="font-size: 17px;">Mumbai Subway Navigation for Tourists is a free application officially provided by Mumbai Metro to enable users to search transfer information for the Mumbai Subway network (Mumbai Metro and Mumbai Suburban Railway).<br>
+        This application is available in English and Hindi. It is highly recommended for visitors sightseeing in Mumbai.
+      
+
+      </p>
+  
+    
+    
+    </div>
+     
+  </footer>
+
+
+</body>
+</html>

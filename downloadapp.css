@@ -1,0 +1,138 @@
+body{
+	font-family: Roboto, sans-serif;
+}
+.da-1{
+	text-align: center;
+	margin: 10% auto 0;
+	
+}
+
+#app-heading{
+	font-size: 46px;
+	color: #02477f;
+	font-weight: bold;
+}
+#appinfo{
+	font-size: 22px;
+
+}
+
+.page-break{
+	margin-top: 80px;
+	color: #02477f;
+	font-size: 20px;
+}
+.arrow2{
+	margin-right: 10px;
+	height: 10px;
+	width: 14px;
+
+}
+#page{
+	cursor: pointer;
+	color: #00467e;
+}
+
+.slash{
+	height: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#page:hover{
+	text-decoration: underline;
+}
+
+.features{
+	width: 76%;
+	height: 1400px;
+	text-align: left;
+	margin-left: 100px;
+	margin: 6% auto ;
+}
+#feature-heading{
+	font-size: 37px;
+	color: #00467e;
+	font-weight: bold;
+	margin-bottom: 15px;
+
+}
+#feature1, #feature2{
+	font-weight: bold;
+	font-size: 22px;
+	margin: 0;
+}
+#app1{
+	height: 400px;
+	margin: 20px 70px 50px 10px;
+	border: 1px solid lightblue;
+}
+#app2{
+	height: 400px;
+	margin: 20px 0 50px;
+	border: 1px solid lightblue;
+}
+#app3{
+	height: 400px;
+	padding: 0 0;
+	margin-bottom: 15px;
+	border: 1px solid lightblue;
+}
+#app4{
+	width: 235px;
+	height: 400px;
+	padding: 0 0;
+	margin-bottom: 15px;
+	border: 1px solid lightblue;
+}
+#app5{
+	width: 235px;
+	height: 400px;
+	padding: 0 0;
+	margin-bottom: 15px;
+	border: 1px solid lightblue;
+}
+#app-info{
+	float: left;
+	width: 254px;
+	text-align: center;
+	margin: 25px 30px 15px 10px;
+	font-size: 19px;
+}
+
+.system{
+	width: 76%;
+	height: 200px;
+	text-align: left;
+	margin-left: 100px;
+	margin: 1% auto ;
+	
+}
+#system-heading{
+	font-size: 37px;
+	color: #00467e;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.downloady{
+	width: 76%;
+	text-align: left;
+	margin-left: 100px;
+	margin: 1% auto ;
+}
+#downloady-heading{
+	font-size: 37px;
+	color: #00467e;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+

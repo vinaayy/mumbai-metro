@@ -1,0 +1,269 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body {
+    background-color:#002244;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+    margin:0%;
+}
+#flex{
+    display:flex;
+    padding-top:100px;
+}
+#flex2{
+    padding: 0px 0 0 20px;
+    display:flex
+}
+#flexp{
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style-type:none;
+}
+
+#intro{
+    color:snow;
+    font-size:50px;
+    animation:typing 5s ;
+    overflow:hidden;
+    white-space:nowrap;
+    font-family: 'Poppins', sans-serif;
+}
+@keyframes typing{
+    0%{
+        width:0%;
+    }
+     100%{
+        width:100%;
+    }
+}
+#introres{
+ float:left;
+ margin-left:30px;
+ width:60%;
+ padding:30px;
+ margin-bottom:30px;
+
+}
+
+
+#resume{
+    padding:5px;
+    background-color:#256f6e;
+    font-size:30px;
+    border-radius:10px;
+    width:50%;
+    text-align:center;
+    color:snow;
+    border:none;
+    font-weight:500;
+    font-family: 'Poppins', sans-serif;
+}
+
+#res{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+#res {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-5px); }
+}
+@keyframes mover {
+    0% { transform: translateY(5px); }
+    100% { transform: translateY(-5px); }
+}
+#coder{
+    width:30%;
+    float:left;
+ }
+#coder1{
+    width:80%;
+    margin:10%;
+    margin-top:100px;
+}
+#points{
+     font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Racing Sans One', cursive;
+font-size:50px;
+color:snow;
+margin-left:10px;
+
+}
+#point{
+     font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Racing Sans One', cursive;
+font-size:50px;
+
+
+}
+ #github{
+    border-radius:8px;
+    border:0px;
+    background-color:#256f6e;
+    margin-left:5%;
+    margin-top:10px;
+    height:100%;
+}
+
+ #hal{
+    margin-left:0%;
+    font-size:18px;
+    background-color:#256f6e;
+    border-radius:5px;
+    border:0px;
+    font-family: 'Poppins', sans-serif;
+    color:snow;
+    padding:5px 10px 5px 10px;
+    padding-bottom:5px;
+    margin-top:10px;
+    font-weight:bold;
+    cursor:pointer;
+   
+}
+#img{
+    width:80%;
+    margin-left:10%;
+    border-radius:5px;
+    transition:transform .2s;
+    margin-top:0px;
+}
+#img:hover{
+    transform:scale(1.1);
+}
+ #mum{
+    width:100%;
+    float:left;
+    
+}
+#bbs{
+    width:100%;
+    float:right;
+    margin-top: 100px;
+    
+
+}
+#ifc{
+    width:100%;
+    float:left;
+}
+#si{
+    padding:none;
+    width:100%;
+   
+   
+}
+
+#skill{
+    display:inline-block ;
+    margin:0% 5% 0 5% ;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+     font-family: 'Poppins', sans-serif;
+     font-size:20px;
+    background-color:#00091a;
+    padding:30px;
+    padding-top:100px;
+    display:flex;
+    margin:0px;
+    }
+#footer{
+    color:#808080;
+    font-size:50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Racing Sans One', cursive;
+
+    
+}
+#ligh{
+    margin-top:-100px;
+    float:left;
+    margin-left:50%;
+   
+    }
+
+@media (max-width:600px){
+    #flex{
+        display:block;
+        width:80%;
+        padding:0px;
+        margin:0px;
+    }
+     #flex2{
+         margin:0px;
+         padding:0px;
+         width:100%;
+    }
+    #flexp{
+        display:grid;
+        padding:10px;
+        width:100%;
+    }
+    #coder{
+        width:100%;
+        margin-top:0px;
+        margin:0px;
+        padding:0px;
+      
+    }
+    #coder1{
+        margin-top:40px;
+        width:100%;
+      
+    }
+    #introres{
+        width:100%;
+        padding:0px;
+        padding:0px;
+        
+    }
+    #intro{
+        width:100%;
+        font-size:30px;
+        margin:0px;
+        padding:0px;
+        margin-top:150px;
+    }
+    #ifc{
+        margin:0px;
+        margin-top:40px;
+        margin-bottom:40px
+    }
+    #bbs{
+        margin-top:40px;
+        
+       
+    }
+    #resume{
+        width:80%;
+    }
+    #skill{
+        width:80px;
+        margin:15px;
+        padding:0px;
+    }
+    #si{
+        margin:0px;
+        padding:0px
+    }
+    #ligh{
+    margin:0px;
+    float:none;
+    display:block
+   
+    }
+    #img:hover{
+        transform:none;
+    }
+    
+    
+}

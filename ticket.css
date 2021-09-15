@@ -1,0 +1,93 @@
+body{
+	font-family: Roboto, sans-serif;
+}
+.ticket{
+	text-align: center;
+	margin: 10% auto 0;
+	
+}
+#ticket-1{
+	width: 80%;
+	margin: 1% auto 5%;
+	margin-top:150px;
+}
+
+#ticket-heading{
+	font-size: 46px;
+	color: #02477f;
+	font-weight: bold;
+
+}
+
+#passlink{
+	text-decoration: none;
+	color: #00467e;
+	font-size: 15px;
+}
+#pass{
+	
+	margin: 12px auto 1px 82px;
+}
+#blackarrow{
+	margin-right: 8px;
+}
+#passlink:hover {
+	text-decoration: underline;
+}
+#ticket-3{
+	text-align: left;
+	width: 100%;
+	margin: 0 auto 3%;
+	height: 550px;
+}
+
+#ticket-book{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+#mylist{
+	margin: 10px auto 40px 20px;
+	width: 45%;
+	height: 50px;
+	font-size: 18px;
+	text-align: center;
+	border: 1px solid lightgrey;
+
+}
+#ticket-button{
+	width:30%;
+         height: 45px;
+         border: none;
+         outline: none;
+         cursor: pointer;
+         background-color: #02477f;
+         color: #fff;
+         font-size: 15px;
+         text-transform: uppercase;
+         font-weight: 600;
+         margin: 0 auto 40px 65px;
+}
+#ticket-button:hover {
+	background-color: #02475f;
+}
+#bt{
+	float:right;
+    margin:40px;
+	width:40%;
+
+}
+@media (max-width:480px){
+	#bt{
+		width:90%;
+		height:auto;
+		margin:5%;
+	}
+	#ticket-button{
+		width:50%;
+	}
+	#mylist{
+		width:80%;
+	}
+
+}
